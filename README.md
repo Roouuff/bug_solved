@@ -134,8 +134,8 @@ Pada lingkungan lain, aktifkan ekstensi PDO SQLite yang sesuai, kemudian jalanka
 
 ### Case 2 - [Nama Case 02]
 
-![Tampilan Case 02](./bug-battle-case-02/resources/case01.png)
+![Tampilan Case 02](./bug-battle-case-02/resources/case02.png)
 
 ### Case 3 - [Nama Case 03]
 
-![Tampilan Case 03](./bug-battle-case-03/resources/case01.png)
+![Tampilan Case 03](./bug-battle-case-03/resources/case03.png)
