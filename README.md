@@ -33,10 +33,10 @@ php artisan db:seed
 
 Setelah itu jalankan `php artisan serve` dan buka `http://127.0.0.1:8000/books`.
 
-| Proyek | Nama database | Fitur |
-|---|---|---|
-| Kasus 01 | `bug_battle_case_01` | Daftar, tambah, validasi, dan hapus buku |
-| Kasus 02 | `bug_battle_case_02` | Foreign key dan relasi buku-kategori |
+| Proyek   | Nama database        | Fitur                                       |
+| -------- | -------------------- | ------------------------------------------- |
+| Kasus 01 | `bug_battle_case_01` | Daftar, tambah, validasi, dan hapus buku    |
+| Kasus 02 | `bug_battle_case_02` | Foreign key dan relasi buku-kategori        |
 | Kasus 03 | `bug_battle_case_03` | Pencarian judul/penulis dan filter kategori |
 
 ## Kasus 01 — CRUD Manajemen Buku
@@ -120,20 +120,22 @@ Pada lingkungan lain, aktifkan ekstensi PDO SQLite yang sesuai, kemudian jalanka
 
 ## Ringkasan status
 
-| Kasus | Kode fitur aplikasi | Perubahan tes | Hasil terakhir |
-|---|---|---|---|
-| 01 — CRUD | Tidak diubah; alur sudah sesuai | Tes redirect diperbarui dan tes CRUD ditambahkan | 6 tes lulus |
-| 02 — Relasi | Tidak diubah; relasi sudah sesuai | Belum diperbarui; tes root masih salah ekspektasi | 1 dari 2 tes lulus |
-| 03 — Search/filter | Menangani kata kunci `"0"` dengan `filled()` | Tes redirect diperbarui dan tes pencarian ditambahkan | 5 tes lulus |
+| Kasus              | Kode fitur aplikasi                          | Perubahan tes                                         | Hasil terakhir     |
+| ------------------ | -------------------------------------------- | ----------------------------------------------------- | ------------------ |
+| 01 — CRUD          | Tidak diubah; alur sudah sesuai              | Tes redirect diperbarui dan tes CRUD ditambahkan      | 6 tes lulus        |
+| 02 — Relasi        | Tidak diubah; relasi sudah sesuai            | Belum diperbarui; tes root masih salah ekspektasi     | 1 dari 2 tes lulus |
+| 03 — Search/filter | Menangani kata kunci `"0"` dengan `filled()` | Tes redirect diperbarui dan tes pencarian ditambahkan | 5 tes lulus        |
 
 ## Dokumentasi Setiap Kasus yang Sudah Diperbaiki
 
 ### Case 1 - CRUD Buku
-![Tampilan Case 01](./bug-battle/bug-battle-case-01/resources/case01.png)
+
+![Tampilan Case 01](./bug-battle-case-01/resources/case01.png)
 
 ### Case 2 - [Nama Case 02]
-![Tampilan Case 02](./bug-battle/bug-battle-case-02/resources/case01.png)
+
+![Tampilan Case 02](./bug-battle-case-02/resources/case01.png)
 
 ### Case 3 - [Nama Case 03]
-![Tampilan Case 03](./bug-battle/bug-battle-case-03/resources/case01.png)
 
+![Tampilan Case 03](./bug-battle-case-03/resources/case01.png)
